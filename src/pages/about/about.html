@@ -1,0 +1,36 @@
+
+<ion-content>
+
+
+
+
+
+
+  <div attr.data-channel="{{name}}" data-theme="theme--day" id="tlkio" style="overflow: auto; -webkit-overflow-scrolling: touch;width: 100%; height: 100%; position: relative;">
+    <iframe [src]="iframeURL()" width="100%" height="100%" frameborder="0" ></iframe>
+  </div>
+
+
+</ion-content>
+
+<ion-fab bottom center>
+    <button ion-fab color="{{ btncolor }}" (click)='stat == "Playing" ? stopAudio() : playAudio(actual_url)'>
+        <ion-icon name="{{ stat == 'Playing' ? 'pause'  : 'play' }}"></ion-icon>
+    </button>
+  </ion-fab>
+
+
+<ion-footer>
+    <ion-toolbar text-center>
+
+      <ion-buttons left>
+          <button ion-button icon-only (click)="takeMeBack()" >
+             <ion-icon name="arrow-back"></ion-icon>
+         </button>
+      </ion-buttons>
+
+    </ion-toolbar>
+
+</ion-footer>
+
+

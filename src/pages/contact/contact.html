@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar color="danger" text-center>
+    <ion-title>Share with Friends</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <h6 text-center> Share RadioChat TN with your friends ♥</h6>
+
+   <ion-grid>
+
+    <ion-row>
+      <ion-col col-3>
+          <button ion-fab color="blue" (click)="fb_share()"><ion-icon name="logo-facebook"></ion-icon></button>
+      </ion-col>
+      <ion-col col-3>
+          <button ion-fab color="primary" (click)="twitter_share()"><ion-icon name="logo-twitter"></ion-icon></button>
+      </ion-col>
+      <ion-col col-3>
+          <button ion-fab color="secondary" (click)="sms_share()"><ion-icon name="chatboxes"></ion-icon></button>
+      </ion-col>
+      <ion-col col-3>
+          <button ion-fab color="instagram" (click)="instagram_share()"><ion-icon name="logo-instagram"></ion-icon></button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+  <br>
+  <div text-center>
+      <img src="assets/imgs/5-stars.png" alt="">
+  </div>
+  <h3 text-center>Rate Us!</h3>
+  <h6 text-center>Like using Our App?</h6>
+  <h6 text-center>Recommend us to others by rating us on Play Store</h6>
+  <div text-center>
+      <button ion-button round color="danger" (click)="rateus()" >Rate Us</button>
+  </div>
+
+
+</ion-content>

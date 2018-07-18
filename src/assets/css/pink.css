@@ -1,0 +1,28 @@
+
+/* Pink Theme by AdemKouki */
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+.theme--day .header-bar {
+    background-color: #f82487;
+}
+.header-avatar, .info , .menu, #share_button{
+    display: none;
+}
+
+html, .header-channel {
+font-family: 'Cairo', sans-serif;
+
+}
+
+.removed {
+    display: inherit;
+}
+
+html.isIframe {
+    background: rgba(237, 116, 172, 0.21)
+}
+
+.post blockquote {
+    background: #f4d1dc;
+}

@@ -1,0 +1,28 @@
+
+/* Blue Theme by AdemKouki */
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+.theme--day .header-bar {
+    background-color: #084bf3;
+}
+.header-avatar, .info , .menu, #share_button{
+    display: none;
+}
+
+html, .header-channel {
+font-family: 'Cairo', sans-serif;
+
+}
+
+.removed {
+    display: inherit;
+}
+
+html.isIframe {
+    background: rgba(116, 164, 237, 0.21)
+}
+
+.post blockquote {
+    background: #d1d8f4;
+}

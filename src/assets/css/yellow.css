@@ -1,0 +1,29 @@
+
+/* Yellow Theme by AdemKouki */
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+.theme--day .header-bar {
+    background-color: #f3bc08;
+}
+.header-avatar, .info , .menu, #share_button{
+    display: none;
+}
+
+html, .header-channel {
+font-family: 'Cairo', sans-serif;
+
+}
+
+.removed {
+    display: inherit;
+}
+
+html.isIframe {
+    background: rgba(237, 229, 116, 0.21)
+}
+
+.post blockquote {
+  background: #f4f3d1;
+}
+
